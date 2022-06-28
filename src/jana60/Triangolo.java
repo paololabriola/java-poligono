@@ -89,4 +89,11 @@ public class Triangolo implements Poligono {
 	    
 	}
 	
+	@Override
+	public String toString() {
+		
+		return "Il triangolo creato ha i seguenti valori." + "\nCateto: " + cateto + "\nAltezza: " + altezza + "\nBase: " + base + "\nArea: " + calcolaArea() + "\nPerimetro: " + calcolaPerimetro();
+		
+	}
+	
 }

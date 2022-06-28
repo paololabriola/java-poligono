@@ -50,5 +50,12 @@ public class Quadrato implements Poligono {
 	    }
 	    
 	}
+	
+	@Override
+	public String toString() {
+		
+		return "Il quadrato creato ha i seguenti valori." + "\nLato: " + lato + "\nArea: " + calcolaArea() + "\nPerimetro: " + calcolaPerimetro();
+		
+	}
 		
 }
